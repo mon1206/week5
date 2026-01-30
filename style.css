@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+@media (max-width: 500px) {
+    .card {
+        width: 45%; 
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #ffc2cb; 
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.container {
+    padding: 30px 5%;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: #B76E79;
+    border-bottom: 2px solid #B76E79;
+    display: inline-block;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;       
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info h3 {
+    font-size: 16px;
+}
+
+.price {
+    color: #B76E79;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #B76E79;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #333; 
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ffc2cb;
+    color: white;
+    margin-top: 30px;
+}
